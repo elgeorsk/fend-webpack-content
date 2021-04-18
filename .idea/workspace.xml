@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d0556bd-da0e-4b08-87d1-d085b62ac3e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/js/formHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/js/nameChecker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/styles/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/styles/footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/styles/form.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/styles/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/styles/resets.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/views/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/mockAPI.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +21,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -45,5 +37,16 @@
       <updated>1618737757071</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
