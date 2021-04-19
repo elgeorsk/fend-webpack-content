@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_nameChecker__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/nameChecker */ \"./src/client/js/nameChecker.js\");\n/* harmony import */ var _js_nameChecker__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_js_nameChecker__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _js_formHandler__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./js/formHandler */ \"./src/client/js/formHandler.js\");\n/* harmony import */ var _js_formHandler__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_js_formHandler__WEBPACK_IMPORTED_MODULE_1__);\n\r\n\r\n\r\nconsole.log(_js_nameChecker__WEBPACK_IMPORTED_MODULE_0__[\"checkForName\"]);\r\nconsole.log(\"Hello theree\");\r\n\r\nalert(\"I EXIST\");\n\n//# sourceURL=webpack:///./src/client/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_nameChecker__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/nameChecker */ \"./src/client/js/nameChecker.js\");\n/* harmony import */ var _js_formHandler__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./js/formHandler */ \"./src/client/js/formHandler.js\");\n\r\n\r\n\r\nconsole.log(_js_nameChecker__WEBPACK_IMPORTED_MODULE_0__[\"checkForName\"]);\r\n\r\nalert('I EXIST');\n\n//# sourceURL=webpack:///./src/client/index.js?");
 
 /***/ }),
 
@@ -102,10 +102,11 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_
 /*!**************************************!*\
   !*** ./src/client/js/formHandler.js ***!
   \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: handleSubmit */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("function handleSubmit(event) {\r\n    event.preventDefault()\r\n\r\n    // check what text was put into the form field\r\n    let formText = document.getElementById('name').value\r\n    checkForName(formText)\r\n\r\n    console.log(\"::: Form Submitted :::\")\r\n    fetch('http://localhost:8080/test')\r\n    .then(res => res.json())\r\n    .then(function(res) {\r\n        document.getElementById('results').innerHTML = res.message\r\n    })\r\n}\r\n\n\n//# sourceURL=webpack:///./src/client/js/formHandler.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"handleSubmit\", function() { return handleSubmit; });\nfunction handleSubmit(event) {\r\n    event.preventDefault();\r\n\r\n    // check what text was put into the form field\r\n    let formText = document.getElementById('name').value\r\n    checkForName(formText);\r\n\r\n    console.log(\"::: Form Submitted :::\")\r\n    fetch('http://localhost:8080/test')\r\n    .then(res => res.json())\r\n    .then(function(res) {\r\n        document.getElementById('results').innerHTML = res.message;\r\n    });\r\n};\r\n\r\n// Export\r\n\r\n\n\n//# sourceURL=webpack:///./src/client/js/formHandler.js?");
 
 /***/ }),
 
@@ -113,10 +114,11 @@ eval("function handleSubmit(event) {\r\n    event.preventDefault()\r\n\r\n    //
 /*!**************************************!*\
   !*** ./src/client/js/nameChecker.js ***!
   \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: checkForName */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("function checkForName(inputText) {\r\n    console.log(\"::: Running checkForName :::\", inputText);\r\n    let names = [\r\n        \"Picard\",\r\n        \"Janeway\",\r\n        \"Kirk\",\r\n        \"Archer\",\r\n        \"Georgiou\"\r\n    ]\r\n\r\n    if(names.includes(inputText)) {\r\n        alert(\"Welcome, Captain!\")\r\n    }\r\n}\r\n\n\n//# sourceURL=webpack:///./src/client/js/nameChecker.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"checkForName\", function() { return checkForName; });\nfunction checkForName(inputText) {\r\n    console.log(\"::: Running checkForName :::\", inputText);\r\n    let names = [\r\n        \"Picard\",\r\n        \"Janeway\",\r\n        \"Kirk\",\r\n        \"Archer\",\r\n        \"Georgiou\"\r\n    ];\r\n\r\n    if(names.includes(inputText)) {\r\n        alert(\"Welcome, Captain!\");\r\n    }\r\n};\r\n\r\n// Export\r\n\n\n//# sourceURL=webpack:///./src/client/js/nameChecker.js?");
 
 /***/ })
 
