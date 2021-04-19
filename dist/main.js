@@ -86,6 +86,18 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/client/img/logo1.png":
+/*!**********************************!*\
+  !*** ./src/client/img/logo1.png ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"img/55fcbf50b85972fda3efa53be3a17c5d.png\");\n\n//# sourceURL=webpack:///./src/client/img/logo1.png?");
+
+/***/ }),
+
 /***/ "./src/client/index.js":
 /*!*****************************!*\
   !*** ./src/client/index.js ***!
@@ -94,7 +106,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_nameChecker__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/nameChecker */ \"./src/client/js/nameChecker.js\");\n/* harmony import */ var _js_formHandler__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./js/formHandler */ \"./src/client/js/formHandler.js\");\n\r\n\r\n\r\nconsole.log(_js_nameChecker__WEBPACK_IMPORTED_MODULE_0__[\"checkForName\"]);\r\n\r\nalert('I EXIST');\n\n//# sourceURL=webpack:///./src/client/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_nameChecker__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/nameChecker */ \"./src/client/js/nameChecker.js\");\n/* harmony import */ var _js_formHandler__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./js/formHandler */ \"./src/client/js/formHandler.js\");\n/* harmony import */ var _img_logo1_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/logo1.png */ \"./src/client/img/logo1.png\");\n\r\n\r\n\r\n\r\nconsole.log(_js_nameChecker__WEBPACK_IMPORTED_MODULE_0__[\"checkForName\"]);\r\n\r\nalert('I EXIST');\n\n//# sourceURL=webpack:///./src/client/index.js?");
 
 /***/ }),
 
@@ -106,7 +118,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"handleSubmit\", function() { return handleSubmit; });\nfunction handleSubmit(event) {\r\n    event.preventDefault();\r\n\r\n    // check what text was put into the form field\r\n    let formText = document.getElementById('name').value\r\n    checkForName(formText);\r\n\r\n    console.log(\"::: Form Submitted :::\")\r\n    fetch('http://localhost:8080/test')\r\n    .then(res => res.json())\r\n    .then(function(res) {\r\n        document.getElementById('results').innerHTML = res.message;\r\n    });\r\n};\r\n\r\n// Export\r\n\r\n\n\n//# sourceURL=webpack:///./src/client/js/formHandler.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"handleSubmit\", function() { return handleSubmit; });\nfunction handleSubmit(event) {\r\n    event.preventDefault();\r\n\r\n    // check what text was put into the form field\r\n    let formText = document.getElementById('name').value\r\n    checkForName(formText);\r\n\r\n    console.log(\"::: Form Submitted :::\")\r\n    fetch('http://localhost:8080/test')\r\n    .then(res => res.json())\r\n    .then(function(res) {\r\n        document.getElementById('results').innerHTML = res.message;\r\n    });\r\n};\r\n\r\n// Export\r\n\n\n//# sourceURL=webpack:///./src/client/js/formHandler.js?");
 
 /***/ }),
 
